@@ -1,0 +1,6 @@
+{
+  "name": "Neon Racer",
+  "description": "Full 3D browser cyberpunk arcade racing game with wet asphalt reflections, real velocity physics, animated speedometer, boost pads, traffic dodging, and custom music.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

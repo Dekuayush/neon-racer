@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #030712;
+    color: #ffffff;
+    font-family: 'Rajdhani', sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+    overflow: hidden;
+  }
+}
+
+@keyframes neon-pulse {
+  0%, 100% {
+    filter: drop-shadow(0 0 6px rgba(0, 240, 255, 0.6));
+  }
+  50% {
+    filter: drop-shadow(0 0 16px rgba(0, 240, 255, 0.95));
+  }
+}
+
+.neon-glow-cyan {
+  filter: drop-shadow(0 0 10px rgba(0, 240, 255, 0.75));
+}
+
+.neon-glow-gold {
+  filter: drop-shadow(0 0 10px rgba(251, 191, 36, 0.75));
+}
+
+.neon-glow-red {
+  filter: drop-shadow(0 0 10px rgba(244, 63, 94, 0.75));
+}
+
+/* Custom scrollbars for modal listings */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #090d16;
+}
+::-webkit-scrollbar-thumb {
+  background: #00f0ff44;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00f0ff88;
+}
